@@ -1,20 +1,33 @@
 package com.example;
 
 import com.example.patternExamples.implementations.AbstractFactoryExample;
+import com.example.patternExamples.implementations.FactoryMethodExample;
 import com.example.patternExamples.implementations.SingletonExample;
 import com.example.patternExamples.Interfaces.PatternExample;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        List<PatternExample> patternExamples = new ArrayList<>();
-//        patternExamples.add(new SingletonExample());
-        patternExamples.add(new AbstractFactoryExample());
+        List<PatternExample> patternExamples = Arrays.asList(
+                new SingletonExample(),
+                new AbstractFactoryExample(),
+                new FactoryMethodExample());
 
-        for(PatternExample patternExample : patternExamples) {
-            patternExample.runExample();
+        for(int i = 0; i < patternExamples.size(); i++) {
+            System.out.println(i + " - " + patternExamples.get(i).getPatternName());
+        }
+
+        while(true) {
+            System.out.print("Ваш выбор паттерна: ");
+            Scanner scanner = new Scanner(System.in);
+            int choice = scanner.nextInt();
+            if (choice < 0 || choice >= patternExamples.size())
+                throw new IllegalArgumentException("Ошибка. Такого выбора нет");
+
+            patternExamples.get(choice).runExample();
         }
     }
 }
