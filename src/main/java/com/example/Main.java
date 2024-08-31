@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.patternExamples.implementations.AbstractFactoryExample;
 import com.example.patternExamples.implementations.FactoryMethodExample;
+import com.example.patternExamples.implementations.PrototypeExample;
 import com.example.patternExamples.implementations.SingletonExample;
 import com.example.patternExamples.Interfaces.PatternExample;
 
@@ -14,7 +15,8 @@ public class Main {
         List<PatternExample> patternExamples = Arrays.asList(
                 new SingletonExample(),
                 new AbstractFactoryExample(),
-                new FactoryMethodExample());
+                new FactoryMethodExample(),
+                new PrototypeExample());
 
         for(int i = 0; i < patternExamples.size(); i++) {
             System.out.println(i + " - " + patternExamples.get(i).getPatternName());
