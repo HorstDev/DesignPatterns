@@ -1,6 +1,6 @@
 package com.example.patternExamples.implementations;
 
-import com.example.GeneratingPatterns.Singleton.Singleton;
+import com.example.generatingPatterns.singleton.Singleton;
 import com.example.patternExamples.Interfaces.PatternExample;
 
 public class SingletonExample implements PatternExample {

@@ -1,4 +1,4 @@
-package com.example.GeneratingPatterns.Singleton;
+package com.example.generatingPatterns.singleton;
 
 // Singleton (одиночка) - позволяет создавать объект в единственном экземпляре
 public class Singleton {

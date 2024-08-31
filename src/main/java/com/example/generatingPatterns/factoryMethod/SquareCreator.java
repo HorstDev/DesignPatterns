@@ -1,7 +1,7 @@
-package com.example.GeneratingPatterns.FactoryMethod;
+package com.example.generatingPatterns.factoryMethod;
 
-import com.example.GeneratingPatterns.FactoryMethod.shapes.Shape;
-import com.example.GeneratingPatterns.FactoryMethod.shapes.Square;
+import com.example.generatingPatterns.factoryMethod.shapes.Shape;
+import com.example.generatingPatterns.factoryMethod.shapes.Square;
 
 // Конкретный создатель (квадрат)
 public class SquareCreator implements ShapeCreator {

@@ -1,7 +1,7 @@
-package com.example.GeneratingPatterns.FactoryMethod;
+package com.example.generatingPatterns.factoryMethod;
 
-import com.example.GeneratingPatterns.FactoryMethod.shapes.Circle;
-import com.example.GeneratingPatterns.FactoryMethod.shapes.Shape;
+import com.example.generatingPatterns.factoryMethod.shapes.Circle;
+import com.example.generatingPatterns.factoryMethod.shapes.Shape;
 
 // Конкретный создатель (круг)
 public class CircleCreator implements ShapeCreator {

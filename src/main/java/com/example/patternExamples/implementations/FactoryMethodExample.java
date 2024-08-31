@@ -1,9 +1,9 @@
 package com.example.patternExamples.implementations;
 
-import com.example.GeneratingPatterns.FactoryMethod.CircleCreator;
-import com.example.GeneratingPatterns.FactoryMethod.ShapeCreator;
-import com.example.GeneratingPatterns.FactoryMethod.SquareCreator;
-import com.example.GeneratingPatterns.FactoryMethod.shapes.Shape;
+import com.example.generatingPatterns.factoryMethod.CircleCreator;
+import com.example.generatingPatterns.factoryMethod.ShapeCreator;
+import com.example.generatingPatterns.factoryMethod.SquareCreator;
+import com.example.generatingPatterns.factoryMethod.shapes.Shape;
 import com.example.patternExamples.Interfaces.PatternExample;
 
 public class FactoryMethodExample implements PatternExample {

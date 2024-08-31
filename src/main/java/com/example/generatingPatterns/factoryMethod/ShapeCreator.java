@@ -1,6 +1,6 @@
-package com.example.GeneratingPatterns.FactoryMethod;
+package com.example.generatingPatterns.factoryMethod;
 
-import com.example.GeneratingPatterns.FactoryMethod.shapes.Shape;
+import com.example.generatingPatterns.factoryMethod.shapes.Shape;
 
 // Фабричный метод может создать только 1 тип объекта, а у абстракной фабрики идет создание множества объектов, в этом вся разница
 // Т.е, например, в абстрактной фабрике у нас есть столы, стулья и т.п., и у каждой фабрики есть методы для каждого конкретного объекта,

@@ -1,7 +1,7 @@
-package com.example.GeneratingPatterns.AbstractFactory;
+package com.example.generatingPatterns.abstractFactory;
 
-import com.example.GeneratingPatterns.AbstractFactory.furniture.interfaces.Chair;
-import com.example.GeneratingPatterns.AbstractFactory.furniture.interfaces.Table;
+import com.example.generatingPatterns.abstractFactory.furniture.interfaces.Chair;
+import com.example.generatingPatterns.abstractFactory.furniture.interfaces.Table;
 
 //* Плюсы использования абстракной фабрики:
 //* 1) Отделение создания объектов от клиентского кода: клиентский код не зависит от классов мебели и абстрагируется от создания объектов

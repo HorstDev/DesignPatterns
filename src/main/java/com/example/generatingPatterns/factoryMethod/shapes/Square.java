@@ -1,4 +1,4 @@
-package com.example.GeneratingPatterns.FactoryMethod.shapes;
+package com.example.generatingPatterns.factoryMethod.shapes;
 
 public class Square implements Shape {
 

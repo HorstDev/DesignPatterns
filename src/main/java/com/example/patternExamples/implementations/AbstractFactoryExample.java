@@ -1,10 +1,10 @@
 package com.example.patternExamples.implementations;
 
-import com.example.GeneratingPatterns.AbstractFactory.BadFurnitureFactory;
-import com.example.GeneratingPatterns.AbstractFactory.FurnitureFactory;
-import com.example.GeneratingPatterns.AbstractFactory.ModernFurnitureFactory;
-import com.example.GeneratingPatterns.AbstractFactory.furniture.interfaces.Chair;
-import com.example.GeneratingPatterns.AbstractFactory.furniture.interfaces.Table;
+import com.example.generatingPatterns.abstractFactory.BadFurnitureFactory;
+import com.example.generatingPatterns.abstractFactory.FurnitureFactory;
+import com.example.generatingPatterns.abstractFactory.ModernFurnitureFactory;
+import com.example.generatingPatterns.abstractFactory.furniture.interfaces.Chair;
+import com.example.generatingPatterns.abstractFactory.furniture.interfaces.Table;
 import com.example.patternExamples.Interfaces.PatternExample;
 
 public class AbstractFactoryExample implements PatternExample {
