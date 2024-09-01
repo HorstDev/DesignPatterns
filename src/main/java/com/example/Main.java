@@ -14,7 +14,8 @@ public class Main {
                 new AbstractFactoryExample(),
                 new FactoryMethodExample(),
                 new PrototypeExample(),
-                new BuilderExample());
+                new BuilderExample(),
+                new CommandExample());
 
         for(int i = 0; i < patternExamples.size(); i++) {
             System.out.println(i + " - " + patternExamples.get(i).getPatternName());
