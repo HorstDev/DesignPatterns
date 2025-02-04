@@ -16,7 +16,9 @@ public class Main {
                 new PrototypeExample(),
                 new BuilderExample(),
                 new CommandExample(),
-                new StrategyExample());
+                new StrategyExample(),
+                new IteratorExample()
+        );
 
         for(int i = 0; i < patternExamples.size(); i++) {
             System.out.println(i + " - " + patternExamples.get(i).getPatternName());
