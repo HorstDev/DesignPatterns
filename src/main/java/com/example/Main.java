@@ -22,7 +22,8 @@ public class Main {
                 new MementoExample(),
                 new ObserverExample(),
                 new StateExample(),
-                new TemplateMethodExample()
+                new TemplateMethodExample(),
+                new VisitorExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
