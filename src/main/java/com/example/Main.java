@@ -19,7 +19,8 @@ public class Main {
                 new StrategyExample(),
                 new IteratorExample(),
                 new MediatorExample(),
-                new MementoExample()
+                new MementoExample(),
+                new ObserverExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
