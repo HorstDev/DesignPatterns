@@ -23,7 +23,8 @@ public class Main {
                 new ObserverExample(),
                 new StateExample(),
                 new TemplateMethodExample(),
-                new VisitorExample()
+                new VisitorExample(),
+                new AdapterExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
