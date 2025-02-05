@@ -21,7 +21,8 @@ public class Main {
                 new MediatorExample(),
                 new MementoExample(),
                 new ObserverExample(),
-                new StateExample()
+                new StateExample(),
+                new TemplateMethodExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
