@@ -20,7 +20,8 @@ public class Main {
                 new IteratorExample(),
                 new MediatorExample(),
                 new MementoExample(),
-                new ObserverExample()
+                new ObserverExample(),
+                new StateExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
