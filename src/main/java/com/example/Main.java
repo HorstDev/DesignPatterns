@@ -24,7 +24,8 @@ public class Main {
                 new StateExample(),
                 new TemplateMethodExample(),
                 new VisitorExample(),
-                new AdapterExample()
+                new AdapterExample(),
+                new BridgeExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
