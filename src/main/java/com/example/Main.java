@@ -27,7 +27,8 @@ public class Main {
                 new AdapterExample(),
                 new BridgeExample(),
                 new CompositeExample(),
-                new DecoratorExample()
+                new DecoratorExample(),
+                new FacadeExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
