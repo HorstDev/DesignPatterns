@@ -15,6 +15,7 @@ public class Main {
                 new FactoryMethodExample(),
                 new PrototypeExample(),
                 new BuilderExample(),
+                new ChainOfResponsibilityExample(),
                 new CommandExample(),
                 new StrategyExample(),
                 new IteratorExample(),
