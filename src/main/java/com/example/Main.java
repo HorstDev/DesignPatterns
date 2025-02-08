@@ -25,7 +25,8 @@ public class Main {
                 new TemplateMethodExample(),
                 new VisitorExample(),
                 new AdapterExample(),
-                new BridgeExample()
+                new BridgeExample(),
+                new CompositeExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
