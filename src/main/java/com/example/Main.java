@@ -28,7 +28,8 @@ public class Main {
                 new BridgeExample(),
                 new CompositeExample(),
                 new DecoratorExample(),
-                new FacadeExample()
+                new FacadeExample(),
+                new FlyweightExample()
         );
 
         for(int i = 0; i < patternExamples.size(); i++) {
